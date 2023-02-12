@@ -1,0 +1,15 @@
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/bin/Debug/net6.0/example001
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/bin/Debug/net6.0/example001.deps.json
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/bin/Debug/net6.0/example001.runtimeconfig.json
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/bin/Debug/net6.0/example001.dll
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/bin/Debug/net6.0/example001.pdb
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.csproj.AssemblyReference.cache
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.GeneratedMSBuildEditorConfig.editorconfig
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.AssemblyInfoInputs.cache
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.AssemblyInfo.cs
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.csproj.CoreCompileInputs.cache
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.dll
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/refint/example001.dll
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.pdb
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/example001.genruntimeconfig.cache
+/home/sysadmin/Dev/GeekBrains/Example (lang)/example001/obj/Debug/net6.0/ref/example001.dll
