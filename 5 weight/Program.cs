@@ -11,8 +11,6 @@ Console.WriteLine(e + ".");
 
 int max = a;
 
-Console.WriteLine(max);
-
 if (b > max) max = b;
 if (c > max) max = c;
 if (d > max) max = d;
