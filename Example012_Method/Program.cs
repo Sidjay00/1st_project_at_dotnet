@@ -37,4 +37,10 @@ int Method3()
 }
 
 int year = Method3();
-Console.WriteLine(year);
+// Console.WriteLine(year);
+
+
+
+// Вид 4
+
+
