@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Вид 1
+void Method1()
+{
+    System.Console.WriteLine("Автор Константин");
+}
+
+Method1();
