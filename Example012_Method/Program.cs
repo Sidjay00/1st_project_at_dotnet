@@ -24,5 +24,17 @@ void Method2_1(string msg, int count)
     }
 }
 
-Method2_1(msg: "Текст!", count: 4);
-Method2_1(count: 2, msg: "Новый текст!");
+// Method2_1(msg: "Текст!", count: 4);
+// Method2_1(count: 2, msg: "Новый текст!");
+
+
+
+// Вид 3
+
+int Method3()
+{
+    return DateTime.Now.Year;
+}
+
+int year = Method3();
+Console.WriteLine(year);
