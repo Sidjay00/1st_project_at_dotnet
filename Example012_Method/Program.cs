@@ -97,19 +97,55 @@ string text = "- Я думаю, - сказал князь, улыбаясь, - �
 //             012
 // s[3] // r
 
-string Replace(string text, char oldValue, char newValue)
+// string Replace(string text, char oldValue, char newValue)
+// {
+//     string result = string.Empty;
+//     int length = text.Length;
+//     for (int i = 0; i < length; i++)
+//     {
+//         if(text[i] == oldValue) result = result + $"{newValue}";
+//         else result =result + $"{text[i]}";
+//     }
+//     return result;
+// }
+
+// string newText = Replace(text, ' ', '|');
+// newText = Replace(newText, 'к', 'К');
+// newText = Replace(newText, 'С', 'с');
+// Console.WriteLine(newText);
+
+//  Упорядочивание массива
+
+int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1 };
+
+void PrintArray(int[] array)
 {
-    string result = string.Empty;
-    int length = text.Length;
-    for (int i = 0; i < length; i++)
+    int count = array.Length;
+    for (int i = 0; i < count; i++)
     {
-        if(text[i] == oldValue) result = result + $"{newValue}";
-        else result =result + $"{text[i]}";
+        Console.Write($"{array[i]} ");
     }
-    return result;
+    Console.WriteLine();
 }
 
-string newText = Replace(text, ' ', '|');
-newText = Replace(newText, 'к', 'К');
-newText = Replace(newText, 'С', 'с');
-Console.WriteLine(newText);
+void Sort(int[] array)
+{
+    for( int i = 0; i < array.Length; i++)
+    {
+        int minPosition = i;
+        for (int j = i + 1; j < array.Length; j++)
+        {
+            if (array[j] < array[minPosition]) minPosition = j;
+        }
+        int temporary = array[i];
+        array[i] = array[minPosition];
+        array[minPosition] = temporary;
+    }
+}
+
+PrintArray(arr);
+Sort(arr);
+PrintArray(arr);
+
+// Д/з после лекции: В каком виде упорядочивание можно выполнить в обратном порядке, от большего к меньшему
+
