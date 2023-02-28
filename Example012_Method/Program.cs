@@ -130,7 +130,7 @@ void PrintArray(int[] array)
 
 void Sort(int[] array)
 {
-    for( int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         int minPosition = i;
         for (int j = i + 1; j < array.Length; j++)
